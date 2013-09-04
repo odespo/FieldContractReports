@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D0650917BD26F70042B14D /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D0650817BD26F70042B14D /* Contacts.m */; };
+		82D1C51917BC721A0016A82B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C51817BC721A0016A82B /* UIKit.framework */; };
+		82D1C51B17BC721A0016A82B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C51A17BC721A0016A82B /* Foundation.framework */; };
+		82D1C51D17BC721A0016A82B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C51C17BC721A0016A82B /* CoreGraphics.framework */; };
+		82D1C52317BC721A0016A82B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C52117BC721A0016A82B /* InfoPlist.strings */; };
+		82D1C52517BC721A0016A82B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D1C52417BC721A0016A82B /* main.m */; };
+		82D1C52917BC721A0016A82B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D1C52817BC721A0016A82B /* AppDelegate.m */; };
+		82D1C52B17BC721A0016A82B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C52A17BC721A0016A82B /* Default.png */; };
+		82D1C52D17BC721A0016A82B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C52C17BC721A0016A82B /* Default@2x.png */; };
+		82D1C52F17BC721A0016A82B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C52E17BC721A0016A82B /* Default-568h@2x.png */; };
+		82D1C53217BC721A0016A82B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C53017BC721A0016A82B /* MainStoryboard.storyboard */; };
+		82D1C53517BC721A0016A82B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D1C53417BC721A0016A82B /* HomeViewController.m */; };
+		82D1C53717BC721A0016A82B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C53617BC721A0016A82B /* first.png */; };
+		82D1C53917BC721A0016A82B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C53817BC721A0016A82B /* first@2x.png */; };
+		82D1C53C17BC721A0016A82B /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D1C53B17BC721A0016A82B /* ContactsViewController.m */; };
+		82D1C53E17BC721A0016A82B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C53D17BC721A0016A82B /* second.png */; };
+		82D1C54017BC721A0016A82B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C53F17BC721A0016A82B /* second@2x.png */; };
+		82D1C54817BC721A0016A82B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C54717BC721A0016A82B /* SenTestingKit.framework */; };
+		82D1C54917BC721A0016A82B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C51817BC721A0016A82B /* UIKit.framework */; };
+		82D1C54A17BC721A0016A82B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C51A17BC721A0016A82B /* Foundation.framework */; };
+		82D1C55217BC721A0016A82B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82D1C55017BC721A0016A82B /* InfoPlist.strings */; };
+		82D1C55517BC721A0016A82B /* Field_Contract_ReportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D1C55417BC721A0016A82B /* Field_Contract_ReportsTests.m */; };
+		82D1C55F17BC73140016A82B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C55E17BC73140016A82B /* AddressBook.framework */; };
+		82D1C56117BC731A0016A82B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C56017BC731A0016A82B /* AddressBookUI.framework */; };
+		82D1C56417BC73670016A82B /* CreateReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D1C56317BC73670016A82B /* CreateReportViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D1C54B17BC721A0016A82B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D1C50D17BC721A0016A82B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D1C51417BC721A0016A82B;
+			remoteInfo = "Field Contract Reports";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82D0650717BD26F70042B14D /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		82D0650817BD26F70042B14D /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		82D1C51517BC721A0016A82B /* Field Contract Reports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Contract Reports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D1C51817BC721A0016A82B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82D1C51A17BC721A0016A82B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82D1C51C17BC721A0016A82B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82D1C52017BC721A0016A82B /* Field Contract Reports-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Field Contract Reports-Info.plist"; sourceTree = "<group>"; };
+		82D1C52217BC721A0016A82B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82D1C52417BC721A0016A82B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82D1C52617BC721A0016A82B /* Field Contract Reports-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Field Contract Reports-Prefix.pch"; sourceTree = "<group>"; };
+		82D1C52717BC721A0016A82B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82D1C52817BC721A0016A82B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82D1C52A17BC721A0016A82B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82D1C52C17BC721A0016A82B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		82D1C52E17BC721A0016A82B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82D1C53117BC721A0016A82B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		82D1C53317BC721A0016A82B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		82D1C53417BC721A0016A82B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		82D1C53617BC721A0016A82B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		82D1C53817BC721A0016A82B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		82D1C53A17BC721A0016A82B /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		82D1C53B17BC721A0016A82B /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		82D1C53D17BC721A0016A82B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		82D1C53F17BC721A0016A82B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		82D1C54617BC721A0016A82B /* Field Contract ReportsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field Contract ReportsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D1C54717BC721A0016A82B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		82D1C54F17BC721A0016A82B /* Field Contract ReportsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Field Contract ReportsTests-Info.plist"; sourceTree = "<group>"; };
+		82D1C55117BC721A0016A82B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82D1C55317BC721A0016A82B /* Field_Contract_ReportsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Field_Contract_ReportsTests.h; sourceTree = "<group>"; };
+		82D1C55417BC721A0016A82B /* Field_Contract_ReportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Field_Contract_ReportsTests.m; sourceTree = "<group>"; };
+		82D1C55E17BC73140016A82B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		82D1C56017BC731A0016A82B /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		82D1C56217BC73670016A82B /* CreateReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateReportViewController.h; sourceTree = "<group>"; };
+		82D1C56317BC73670016A82B /* CreateReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateReportViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D1C51217BC721A0016A82B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1C56117BC731A0016A82B /* AddressBookUI.framework in Frameworks */,
+				82D1C55F17BC73140016A82B /* AddressBook.framework in Frameworks */,
+				82D1C51917BC721A0016A82B /* UIKit.framework in Frameworks */,
+				82D1C51B17BC721A0016A82B /* Foundation.framework in Frameworks */,
+				82D1C51D17BC721A0016A82B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D1C54217BC721A0016A82B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1C54817BC721A0016A82B /* SenTestingKit.framework in Frameworks */,
+				82D1C54917BC721A0016A82B /* UIKit.framework in Frameworks */,
+				82D1C54A17BC721A0016A82B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D1C50C17BC721A0016A82B = {
+			isa = PBXGroup;
+			children = (
+				82D1C51E17BC721A0016A82B /* Field Contract Reports */,
+				82D1C54D17BC721A0016A82B /* Field Contract ReportsTests */,
+				82D1C51717BC721A0016A82B /* Frameworks */,
+				82D1C51617BC721A0016A82B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D1C51617BC721A0016A82B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D1C51517BC721A0016A82B /* Field Contract Reports.app */,
+				82D1C54617BC721A0016A82B /* Field Contract ReportsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D1C51717BC721A0016A82B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82D1C56017BC731A0016A82B /* AddressBookUI.framework */,
+				82D1C55E17BC73140016A82B /* AddressBook.framework */,
+				82D1C51817BC721A0016A82B /* UIKit.framework */,
+				82D1C51A17BC721A0016A82B /* Foundation.framework */,
+				82D1C51C17BC721A0016A82B /* CoreGraphics.framework */,
+				82D1C54717BC721A0016A82B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82D1C51E17BC721A0016A82B /* Field Contract Reports */ = {
+			isa = PBXGroup;
+			children = (
+				82D1C52717BC721A0016A82B /* AppDelegate.h */,
+				82D1C52817BC721A0016A82B /* AppDelegate.m */,
+				82D1C53017BC721A0016A82B /* MainStoryboard.storyboard */,
+				82D1C53317BC721A0016A82B /* HomeViewController.h */,
+				82D1C53417BC721A0016A82B /* HomeViewController.m */,
+				82D1C53617BC721A0016A82B /* first.png */,
+				82D1C53817BC721A0016A82B /* first@2x.png */,
+				82D1C53A17BC721A0016A82B /* ContactsViewController.h */,
+				82D1C53B17BC721A0016A82B /* ContactsViewController.m */,
+				82D0650717BD26F70042B14D /* Contacts.h */,
+				82D0650817BD26F70042B14D /* Contacts.m */,
+				82D1C56217BC73670016A82B /* CreateReportViewController.h */,
+				82D1C56317BC73670016A82B /* CreateReportViewController.m */,
+				82D1C53D17BC721A0016A82B /* second.png */,
+				82D1C53F17BC721A0016A82B /* second@2x.png */,
+				82D1C51F17BC721A0016A82B /* Supporting Files */,
+			);
+			path = "Field Contract Reports";
+			sourceTree = "<group>";
+		};
+		82D1C51F17BC721A0016A82B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D1C52017BC721A0016A82B /* Field Contract Reports-Info.plist */,
+				82D1C52117BC721A0016A82B /* InfoPlist.strings */,
+				82D1C52417BC721A0016A82B /* main.m */,
+				82D1C52617BC721A0016A82B /* Field Contract Reports-Prefix.pch */,
+				82D1C52A17BC721A0016A82B /* Default.png */,
+				82D1C52C17BC721A0016A82B /* Default@2x.png */,
+				82D1C52E17BC721A0016A82B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82D1C54D17BC721A0016A82B /* Field Contract ReportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				82D1C55317BC721A0016A82B /* Field_Contract_ReportsTests.h */,
+				82D1C55417BC721A0016A82B /* Field_Contract_ReportsTests.m */,
+				82D1C54E17BC721A0016A82B /* Supporting Files */,
+			);
+			path = "Field Contract ReportsTests";
+			sourceTree = "<group>";
+		};
+		82D1C54E17BC721A0016A82B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D1C54F17BC721A0016A82B /* Field Contract ReportsTests-Info.plist */,
+				82D1C55017BC721A0016A82B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D1C51417BC721A0016A82B /* Field Contract Reports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D1C55817BC721A0016A82B /* Build configuration list for PBXNativeTarget "Field Contract Reports" */;
+			buildPhases = (
+				82D1C51117BC721A0016A82B /* Sources */,
+				82D1C51217BC721A0016A82B /* Frameworks */,
+				82D1C51317BC721A0016A82B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Field Contract Reports";
+			productName = "Field Contract Reports";
+			productReference = 82D1C51517BC721A0016A82B /* Field Contract Reports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D1C54517BC721A0016A82B /* Field Contract ReportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D1C55B17BC721A0016A82B /* Build configuration list for PBXNativeTarget "Field Contract ReportsTests" */;
+			buildPhases = (
+				82D1C54117BC721A0016A82B /* Sources */,
+				82D1C54217BC721A0016A82B /* Frameworks */,
+				82D1C54317BC721A0016A82B /* Resources */,
+				82D1C54417BC721A0016A82B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D1C54C17BC721A0016A82B /* PBXTargetDependency */,
+			);
+			name = "Field Contract ReportsTests";
+			productName = "Field Contract ReportsTests";
+			productReference = 82D1C54617BC721A0016A82B /* Field Contract ReportsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D1C50D17BC721A0016A82B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Orion Despo";
+			};
+			buildConfigurationList = 82D1C51017BC721A0016A82B /* Build configuration list for PBXProject "Field Contract Reports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82D1C50C17BC721A0016A82B;
+			productRefGroup = 82D1C51617BC721A0016A82B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D1C51417BC721A0016A82B /* Field Contract Reports */,
+				82D1C54517BC721A0016A82B /* Field Contract ReportsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D1C51317BC721A0016A82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1C52317BC721A0016A82B /* InfoPlist.strings in Resources */,
+				82D1C52B17BC721A0016A82B /* Default.png in Resources */,
+				82D1C52D17BC721A0016A82B /* Default@2x.png in Resources */,
+				82D1C52F17BC721A0016A82B /* Default-568h@2x.png in Resources */,
+				82D1C53217BC721A0016A82B /* MainStoryboard.storyboard in Resources */,
+				82D1C53717BC721A0016A82B /* first.png in Resources */,
+				82D1C53917BC721A0016A82B /* first@2x.png in Resources */,
+				82D1C53E17BC721A0016A82B /* second.png in Resources */,
+				82D1C54017BC721A0016A82B /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D1C54317BC721A0016A82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1C55217BC721A0016A82B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82D1C54417BC721A0016A82B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D1C51117BC721A0016A82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1C52517BC721A0016A82B /* main.m in Sources */,
+				82D1C52917BC721A0016A82B /* AppDelegate.m in Sources */,
+				82D1C53517BC721A0016A82B /* HomeViewController.m in Sources */,
+				82D1C53C17BC721A0016A82B /* ContactsViewController.m in Sources */,
+				82D1C56417BC73670016A82B /* CreateReportViewController.m in Sources */,
+				82D0650917BD26F70042B14D /* Contacts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D1C54117BC721A0016A82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D1C55517BC721A0016A82B /* Field_Contract_ReportsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D1C54C17BC721A0016A82B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D1C51417BC721A0016A82B /* Field Contract Reports */;
+			targetProxy = 82D1C54B17BC721A0016A82B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D1C52117BC721A0016A82B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D1C52217BC721A0016A82B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82D1C53017BC721A0016A82B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D1C53117BC721A0016A82B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		82D1C55017BC721A0016A82B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D1C55117BC721A0016A82B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D1C55617BC721A0016A82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		82D1C55717BC721A0016A82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D1C55917BC721A0016A82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Field Contract Reports/Field Contract Reports-Prefix.pch";
+				INFOPLIST_FILE = "Field Contract Reports/Field Contract Reports-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82D1C55A17BC721A0016A82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Field Contract Reports/Field Contract Reports-Prefix.pch";
+				INFOPLIST_FILE = "Field Contract Reports/Field Contract Reports-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82D1C55C17BC721A0016A82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Field Contract Reports.app/Field Contract Reports";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Field Contract Reports/Field Contract Reports-Prefix.pch";
+				INFOPLIST_FILE = "Field Contract ReportsTests/Field Contract ReportsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		82D1C55D17BC721A0016A82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Field Contract Reports.app/Field Contract Reports";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Field Contract Reports/Field Contract Reports-Prefix.pch";
+				INFOPLIST_FILE = "Field Contract ReportsTests/Field Contract ReportsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D1C51017BC721A0016A82B /* Build configuration list for PBXProject "Field Contract Reports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D1C55617BC721A0016A82B /* Debug */,
+				82D1C55717BC721A0016A82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D1C55817BC721A0016A82B /* Build configuration list for PBXNativeTarget "Field Contract Reports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D1C55917BC721A0016A82B /* Debug */,
+				82D1C55A17BC721A0016A82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D1C55B17BC721A0016A82B /* Build configuration list for PBXNativeTarget "Field Contract ReportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D1C55C17BC721A0016A82B /* Debug */,
+				82D1C55D17BC721A0016A82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D1C50D17BC721A0016A82B /* Project object */;
+}
